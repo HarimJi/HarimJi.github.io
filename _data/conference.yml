@@ -21,6 +21,12 @@
 - layout: left
   title: GPU-Accelerated Subsystem-Based ADMM for Large-Scale Interactive Simulation
   authors: <strong>Harim Ji</strong>, Hyunsu Kim, Jeongmin Lee, Somang Lee, Seoki An, Jinuk Heo, Youngseon Lee, Yongseok Lee, Dongjun Lee
-  conference: "ICRA Workshop on Handy Moves: Dexterity in Multi-Fingered Hands"
+  conference: "ICRA workshop on Handy Moves: Dexterity in Multi-Fingered Hands"
+  year: 2025
+  location: Atlanta, USA
+- layout: left
+  title: GPU-Accelerated Subsystem-Based ADMM for Large-Scale Interactive Simulation
+  authors: <strong>Harim Ji</strong>, Hyunsu Kim, Jeongmin Lee, Somang Lee, Seoki An, Jinuk Heo, Youngseon Lee, Yongseok Lee, Dongjun Lee
+  conference: ICRA
   year: 2025
   location: Atlanta, USA

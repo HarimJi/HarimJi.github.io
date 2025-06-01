@@ -1,0 +1,15 @@
+- layout: left
+  title: GPU-Accelerated Subsystem-Based ADMM for Large-Scale Interactive Simulation
+  authors: <strong>Harim Ji</strong>, Hyunsu Kim, Jeongmin Lee, Somang Lee, Seoki An, Jinuk Heo, Youngseon Lee, Yongseok Lee, and Dongjun Lee
+  venue: IEEE International Conference on Robotics and Automation (ICRA)
+  year: 2025
+  location: Atlanta, USA
+  notes: Accepted for publication
+  links:
+    - title: Paper
+      url: https://www.inrol.snu.ac.kr/_files/ugd/0c0760_331e29628da1457a8e659309d5d879b9.pdf
+    - title: Code (preparing release)
+      url: "#"
+    - title: Video
+      url: https://www.youtube.com/watch?v=6dXjwOY-fF8
+  image: /images/GPUSubADMM_GraphicalAbstract.png

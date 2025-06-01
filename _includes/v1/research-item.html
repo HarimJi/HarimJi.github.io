@@ -1,0 +1,24 @@
+<div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+    <h4>{{ include.item.title }}</h4>
+    <p><b>{{ include.item.authors }}</b></p>
+    <p>{{ include.item.venue }}</p>
+    <p>{{ include.item.location }}, {{ include.item.year }}</p>
+    {%- if include.item.notes -%}
+      <p><i>{{ include.item.notes }}</i></p>
+    {%- endif -%}
+    {%- if include.item.links -%}
+      <ul>
+        {% for link in include.item.links %}
+          <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+    {%- endif -%}
+  </div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+    {%- if include.item.image -%}
+      <img src="{{ include.item.image }}" alt="thumbnail" style="max-width: 100%; margin-bottom: 10px;" />
+    {%- endif -%}
+    {{ include.item.description | markdownify }}
+  </div>
+</div>

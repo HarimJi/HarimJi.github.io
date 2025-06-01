@@ -1,0 +1,6 @@
+<div class="container research-container">
+  <h3 id="{{ site.research_title | slugify | default: 'research' }}">{{ site.research_title | default: "Research" }}</h3>
+  {% for research in site.data.research %}
+    {% include v1/research-item.html item=research %}
+  {% endfor %}
+</div>
