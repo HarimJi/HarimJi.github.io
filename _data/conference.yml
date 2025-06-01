@@ -1,0 +1,26 @@
+- layout: left
+  title: A Robust and Accurate System for Data Acquisition of Dexterous Manipulation
+  authors: <strong>Harim Ji</strong>, Hyelim Choi, Jinuk Heo, Youngseon Lee, Hyunsu Kim, Somang Lee, and Dongjun Lee
+  conference: RSS Workshop on Learning Dexterous Manipulation
+  year: 2023
+  location: Daegu, Korea
+  notes: "* Equal contribution"
+- layout: left
+  title: Interactive Simulation of Dexterous Manipulation with Hand Tracking
+  authors: Hyelim Choi*, Youngseon Lee*, <strong>Harim Ji</strong>*, Hyunsu Kim, Jinuk Heo, Hyunreal Park, Somang Lee, Minji Lee, Jeongmin Lee, and Dongjun Lee
+  conference: ICRA Expo
+  year: 2024
+  location: Yokohama, Japan
+  notes: "* Equal contribution"
+- layout: left
+  title: Visual-inertial Markerless Hand Tracking
+  authors: Hyelim Choi, Hyunreal Park, <strong>Harim Ji</strong>, and Donjun Lee
+  conference: KRoC
+  year: 2025
+  location: Pyeongchang, Korea
+- layout: left
+  title: GPU-Accelerated Subsystem-Based ADMM for Large-Scale Interactive Simulation
+  authors: <strong>Harim Ji</strong>, Hyunsu Kim, Jeongmin Lee, Somang Lee, Seoki An, Jinuk Heo, Youngseon Lee, Yongseok Lee, Dongjun Lee
+  conference: "ICRA Workshop on Handy Moves: Dexterity in Multi-Fingered Hands"
+  year: 2025
+  location: Atlanta, USA

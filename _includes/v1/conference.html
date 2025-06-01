@@ -1,0 +1,6 @@
+<div class="container conference-container">
+  <h3 id="{{ site.conference_title | slugify | default: 'conference' }}">{{ site.conference_title | default: "Conference" }}</h3>
+  {% for conference in site.data.conference %}
+    {% include v1/conference-item.html item=conference %}
+  {% endfor %}
+</div>

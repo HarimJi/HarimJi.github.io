@@ -1,0 +1,16 @@
+- layout: top-right
+  title: Seoul National University
+  sub_title: B.S. Mechanical Engineering
+  caption: 2017–2022
+  quote: >
+    Including 2 years of military service
+  description: |
+    Completed undergraduate coursework in dynamics, controls, and robotics.
+    Also enrolled in graduate-level coursework in advanced control theory.
+
+- layout: top-right
+  title: Seoul National University
+  sub_title: Ph.D. Student, Mechanical Engineering
+  caption: 2023–Present
+  description: |
+    Participated in graduate coursework in advanced control theory, robotics, and differential geometry.
