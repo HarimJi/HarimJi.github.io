@@ -1,0 +1,708 @@
+{
+	"charStyle" : {},
+	"config" : 
+	[
+		{
+			"childs" : 
+			[
+				[]
+			],
+			"fx" : 0,
+			"map" : null,
+			"pointer" : 1998453069344,
+			"source" : 0,
+			"type" : "MovieObjectTrack"
+		},
+		{
+			"config" : 
+			{
+				"audio" : 
+				{
+					"volume" : 
+					{
+						"returnType" : "double",
+						"value" : 0.0,
+						"valueType" : "fix"
+					}
+				},
+				"geometry" : 
+				{
+					"alpha" : 
+					{
+						"returnType" : "double",
+						"value" : 1.0,
+						"valueType" : "fix"
+					},
+					"anchorX" : 
+					{
+						"returnType" : "double",
+						"value" : 960.0,
+						"valueType" : "fix"
+					},
+					"anchorY" : 
+					{
+						"returnType" : "double",
+						"value" : 540.0,
+						"valueType" : "fix"
+					},
+					"blending" : 
+					{
+						"returnType" : "string",
+						"value" : "normal",
+						"valueType" : "fix"
+					},
+					"masking" : 
+					{
+						"returnType" : "step",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"rotationZ" : 
+					{
+						"returnType" : "double",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"scaleX" : 
+					{
+						"returnType" : "double",
+						"value" : 0.8,
+						"valueType" : "fix"
+					},
+					"scaleY" : 
+					{
+						"returnType" : "double",
+						"value" : 0.8,
+						"valueType" : "fix"
+					},
+					"uniformScale" : 
+					{
+						"returnType" : "step",
+						"value" : 1.0,
+						"valueType" : "fix"
+					},
+					"x" : 
+					{
+						"returnType" : "double",
+						"value" : 640.0,
+						"valueType" : "fix"
+					},
+					"y" : 
+					{
+						"returnType" : "double",
+						"value" : 360.0,
+						"valueType" : "fix"
+					}
+				},
+				"motionblur" : 
+				{
+					"activated" : 
+					{
+						"returnType" : "step",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"evaluator" : 
+					{
+						"returnType" : "string",
+						"value" : "motionblur",
+						"valueType" : "fix"
+					},
+					"mirror" : 
+					{
+						"returnType" : "step",
+						"value" : 0.0,
+						"valueType" : "fix"
+					}
+				},
+				"root" : 
+				{
+					"basicFX" : 
+					{
+						"returnType" : "object",
+						"value" : 
+						[
+							"clipResizer"
+						],
+						"valueType" : "fix"
+					},
+					"layerFX" : 
+					{
+						"returnType" : "object",
+						"value" : [],
+						"valueType" : "fix"
+					},
+					"localFX" : 
+					{
+						"returnType" : "object",
+						"value" : 
+						[
+							"chromaKey",
+							"crop1",
+							"lut",
+							"crop2",
+							"mosaic"
+						],
+						"valueType" : "fix"
+					}
+				}
+			},
+			"fx" : 0,
+			"map" : null,
+			"pointer" : 1998776988480,
+			"source" : 0,
+			"type" : "MiniDatabase"
+		},
+		{
+			"config" : 
+			{
+				"source" : 
+				{
+					"audio" : 
+					{
+						"returnType" : "double",
+						"value" : 1.0,
+						"valueType" : "fix"
+					},
+					"duration" : 
+					{
+						"returnType" : "double",
+						"value" : 1378.433333333333,
+						"valueType" : "fix"
+					},
+					"fps" : 
+					{
+						"returnType" : "double",
+						"value" : 30.0,
+						"valueType" : "fix"
+					},
+					"hasAlpha" : 
+					{
+						"returnType" : "double",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"height" : 
+					{
+						"returnType" : "double",
+						"value" : 1080.0,
+						"valueType" : "fix"
+					},
+					"numberOfChannels" : 
+					{
+						"returnType" : "double",
+						"value" : 2.0,
+						"valueType" : "fix"
+					},
+					"overload" : 
+					{
+						"returnType" : "double",
+						"value" : 0.5,
+						"valueType" : "fix"
+					},
+					"path" : 
+					{
+						"returnType" : "string",
+						"value" : "C:\\Users\\HarimJi\\Documents\\Bandicam\\Drill.mp4",
+						"valueType" : "fix"
+					},
+					"pixelFormat" : 
+					{
+						"returnType" : "double",
+						"value" : 27.0,
+						"valueType" : "fix"
+					},
+					"reachableLimit" : 
+					{
+						"returnType" : "double",
+						"value" : 1.0,
+						"valueType" : "fix"
+					},
+					"rotation" : 
+					{
+						"returnType" : "double",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"videoBufferMemory" : 
+					{
+						"returnType" : "double",
+						"value" : 176489865.0,
+						"valueType" : "fix"
+					},
+					"width" : 
+					{
+						"returnType" : "double",
+						"value" : 1920.0,
+						"valueType" : "fix"
+					}
+				}
+			},
+			"fx" : 0,
+			"map" : null,
+			"pointer" : 1998454366032,
+			"resultFrameRectangleHeight" : 1080,
+			"resultFrameRectangleWidth" : 1920,
+			"source" : 0,
+			"type" : "VideoSource"
+		},
+		{
+			"clipLength" : 440,
+			"clipX" : 375,
+			"cutStart" : 32700,
+			"fadeIn" : false,
+			"fadeInTime" : 0.5,
+			"fadeOut" : false,
+			"fadeOutTime" : 0.5,
+			"fx" : 1998776988480,
+			"isCustomName" : false,
+			"isOverlap" : false,
+			"map" : null,
+			"mute" : false,
+			"name" : "video_1998453541184",
+			"pointer" : 1998453541184,
+			"reversePlay" : false,
+			"source" : 1998454366032,
+			"times" : 3.0,
+			"type" : "MovieObject"
+		},
+		{
+			"config" : 
+			{
+				"audio" : 
+				{
+					"volume" : 
+					{
+						"returnType" : "double",
+						"value" : 0.0,
+						"valueType" : "fix"
+					}
+				},
+				"geometry" : 
+				{
+					"alpha" : 
+					{
+						"returnType" : "double",
+						"value" : 1.0,
+						"valueType" : "fix"
+					},
+					"anchorX" : 
+					{
+						"returnType" : "double",
+						"value" : 960.0,
+						"valueType" : "fix"
+					},
+					"anchorY" : 
+					{
+						"returnType" : "double",
+						"value" : 540.0,
+						"valueType" : "fix"
+					},
+					"blending" : 
+					{
+						"returnType" : "string",
+						"value" : "normal",
+						"valueType" : "fix"
+					},
+					"masking" : 
+					{
+						"returnType" : "step",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"rotationZ" : 
+					{
+						"returnType" : "double",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"scaleX" : 
+					{
+						"returnType" : "double",
+						"value" : 0.8,
+						"valueType" : "fix"
+					},
+					"scaleY" : 
+					{
+						"returnType" : "double",
+						"value" : 0.8,
+						"valueType" : "fix"
+					},
+					"uniformScale" : 
+					{
+						"returnType" : "step",
+						"value" : 1.0,
+						"valueType" : "fix"
+					},
+					"x" : 
+					{
+						"returnType" : "double",
+						"value" : 640.0,
+						"valueType" : "fix"
+					},
+					"y" : 
+					{
+						"returnType" : "double",
+						"value" : 360.0,
+						"valueType" : "fix"
+					}
+				},
+				"motionblur" : 
+				{
+					"activated" : 
+					{
+						"returnType" : "step",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"evaluator" : 
+					{
+						"returnType" : "string",
+						"value" : "motionblur",
+						"valueType" : "fix"
+					},
+					"mirror" : 
+					{
+						"returnType" : "step",
+						"value" : 0.0,
+						"valueType" : "fix"
+					}
+				},
+				"root" : 
+				{
+					"basicFX" : 
+					{
+						"returnType" : "object",
+						"value" : 
+						[
+							"clipResizer"
+						],
+						"valueType" : "fix"
+					},
+					"layerFX" : 
+					{
+						"returnType" : "object",
+						"value" : [],
+						"valueType" : "fix"
+					},
+					"localFX" : 
+					{
+						"returnType" : "object",
+						"value" : 
+						[
+							"chromaKey",
+							"crop1",
+							"lut",
+							"crop2",
+							"mosaic"
+						],
+						"valueType" : "fix"
+					}
+				}
+			},
+			"fx" : 0,
+			"map" : null,
+			"pointer" : 1998776271040,
+			"source" : 0,
+			"type" : "MiniDatabase"
+		},
+		{
+			"config" : 
+			{
+				"source" : 
+				{
+					"audio" : 
+					{
+						"returnType" : "double",
+						"value" : 1.0,
+						"valueType" : "fix"
+					},
+					"duration" : 
+					{
+						"returnType" : "double",
+						"value" : 1378.433333333333,
+						"valueType" : "fix"
+					},
+					"fps" : 
+					{
+						"returnType" : "double",
+						"value" : 30.0,
+						"valueType" : "fix"
+					},
+					"hasAlpha" : 
+					{
+						"returnType" : "double",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"height" : 
+					{
+						"returnType" : "double",
+						"value" : 1080.0,
+						"valueType" : "fix"
+					},
+					"numberOfChannels" : 
+					{
+						"returnType" : "double",
+						"value" : 2.0,
+						"valueType" : "fix"
+					},
+					"overload" : 
+					{
+						"returnType" : "double",
+						"value" : 0.5,
+						"valueType" : "fix"
+					},
+					"path" : 
+					{
+						"returnType" : "string",
+						"value" : "C:\\Users\\HarimJi\\Documents\\Bandicam\\Drill.mp4",
+						"valueType" : "fix"
+					},
+					"pixelFormat" : 
+					{
+						"returnType" : "double",
+						"value" : 27.0,
+						"valueType" : "fix"
+					},
+					"reachableLimit" : 
+					{
+						"returnType" : "double",
+						"value" : 1.0,
+						"valueType" : "fix"
+					},
+					"rotation" : 
+					{
+						"returnType" : "double",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"videoBufferMemory" : 
+					{
+						"returnType" : "double",
+						"value" : 176489865.0,
+						"valueType" : "fix"
+					},
+					"width" : 
+					{
+						"returnType" : "double",
+						"value" : 1920.0,
+						"valueType" : "fix"
+					}
+				}
+			},
+			"fx" : 0,
+			"map" : null,
+			"pointer" : 1998454364832,
+			"resultFrameRectangleHeight" : 1080,
+			"resultFrameRectangleWidth" : 1920,
+			"source" : 0,
+			"type" : "VideoSource"
+		},
+		{
+			"clipLength" : 375,
+			"clipX" : 0,
+			"cutStart" : 20580,
+			"fadeIn" : false,
+			"fadeInTime" : 0.5,
+			"fadeOut" : false,
+			"fadeOutTime" : 0.5,
+			"fx" : 1998776271040,
+			"isCustomName" : false,
+			"isOverlap" : false,
+			"map" : null,
+			"mute" : false,
+			"name" : "video_1998453542784",
+			"pointer" : 1998453542784,
+			"reversePlay" : false,
+			"source" : 1998454364832,
+			"times" : 3.0,
+			"type" : "MovieObject"
+		},
+		{
+			"childs" : 
+			[
+				[
+					1998453542784,
+					1998453541184
+				]
+			],
+			"fx" : 0,
+			"map" : null,
+			"pointer" : 1998453070864,
+			"source" : 0,
+			"type" : "MovieObjectTrack"
+		},
+		{
+			"childs" : 
+			[
+				[]
+			],
+			"fx" : 0,
+			"map" : null,
+			"pointer" : 1998453076032,
+			"source" : 0,
+			"type" : "MovieObjectTrack"
+		},
+		{
+			"config" : 
+			{
+				"audio" : 
+				{
+					"volume" : 
+					{
+						"returnType" : "double",
+						"value" : 1.0,
+						"valueType" : "fix"
+					}
+				},
+				"geometry" : 
+				{
+					"alpha" : 
+					{
+						"returnType" : "double",
+						"value" : 1.0,
+						"valueType" : "fix"
+					},
+					"anchorX" : 
+					{
+						"returnType" : "double",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"anchorY" : 
+					{
+						"returnType" : "double",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"blending" : 
+					{
+						"returnType" : "string",
+						"value" : "normal",
+						"valueType" : "fix"
+					},
+					"masking" : 
+					{
+						"returnType" : "step",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"rotationZ" : 
+					{
+						"returnType" : "double",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"scaleX" : 
+					{
+						"returnType" : "double",
+						"value" : 1.0,
+						"valueType" : "fix"
+					},
+					"scaleY" : 
+					{
+						"returnType" : "double",
+						"value" : 1.0,
+						"valueType" : "fix"
+					},
+					"x" : 
+					{
+						"returnType" : "double",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"y" : 
+					{
+						"returnType" : "double",
+						"value" : 0.0,
+						"valueType" : "fix"
+					}
+				},
+				"motionblur" : 
+				{
+					"activated" : 
+					{
+						"returnType" : "step",
+						"value" : 0.0,
+						"valueType" : "fix"
+					},
+					"evaluator" : 
+					{
+						"returnType" : "string",
+						"value" : "motionblur",
+						"valueType" : "fix"
+					},
+					"mirror" : 
+					{
+						"returnType" : "step",
+						"value" : 0.0,
+						"valueType" : "fix"
+					}
+				},
+				"root" : 
+				{
+					"basicFX" : 
+					{
+						"returnType" : "object",
+						"value" : [],
+						"valueType" : "fix"
+					},
+					"layerFX" : 
+					{
+						"returnType" : "object",
+						"value" : [],
+						"valueType" : "fix"
+					},
+					"localFX" : 
+					{
+						"returnType" : "object",
+						"value" : [],
+						"valueType" : "fix"
+					}
+				}
+			},
+			"fx" : 0,
+			"map" : null,
+			"pointer" : 1998453939584,
+			"source" : 0,
+			"type" : "MiniDatabase"
+		},
+		{
+			"audioTrack" : 1998453069344,
+			"backgroundColor" : 4278190080,
+			"backgroundTransparency" : false,
+			"captionTrack" : 1998453076032,
+			"clipLength" : 0,
+			"clipX" : 0,
+			"cutStart" : 0,
+			"fadeIn" : false,
+			"fadeInTime" : 0.5,
+			"fadeOut" : false,
+			"fadeOutTime" : 0.5,
+			"fx" : 1998453939584,
+			"isCustomName" : false,
+			"isOverlap" : false,
+			"magnetMode" : false,
+			"map" : null,
+			"mute" : false,
+			"name" : "vapshion",
+			"pictureHeight" : 720,
+			"pictureWidth" : 1280,
+			"pointer" : 1998454038112,
+			"projectFPS" : 30,
+			"reversePlay" : false,
+			"source" : 0,
+			"subjectHeight" : 720,
+			"subjectWidth" : 1280,
+			"subjectX" : 0,
+			"subjectY" : 0,
+			"times" : 1.0,
+			"type" : "MovieObjectContainer",
+			"videoTrack" : 1998453070864,
+			"worldHeight" : 720,
+			"worldWidth" : 1280
+		}
+	],
+	"version" : 5
+}

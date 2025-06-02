@@ -17,4 +17,4 @@
   notes: "* Equal contribution"
   status: ongoing
   descriptions: We made a VR interface for human-in-the-loop Gaussian splatting based scene reconstruction. The human, using both hands, can designate the pose of the end effector of the SAM (Suspended Aerial Manipulator) platform on which an RGBD sensor is attached. The Gaussian splatting of the scene is constructed in real-time and rendered to the user in VR. The VR interface and RGBD sensor simulator are developed using Unreal Engine 5.
-  image: /images/Drill.jpg
+  video: /videos/Drill_Comp.mp4
