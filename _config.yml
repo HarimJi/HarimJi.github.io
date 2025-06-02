@@ -40,7 +40,7 @@ darkmode: false
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/me.png
 about_content: | # this will include new lines to allow paragraphs
  I am a PhD candidate at the Department of Mechanical Engineering, Seoul National University, advised by professor Donjun Lee. My research goal is to develop an interactive simulator capable of handling large-scale contact-rich environments involving both rigid and deformable objects — for example, a soft human hand tightening a bolt. Toward this goal, my interests include dynamics modeling, parallelizable solvers, and GPU-accelerated computation.
 

@@ -1,0 +1,24 @@
+<div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+    <h4>{{ include.item.title }}</h4>
+    <p>{{ include.item.participants }}</p>
+    {% if include.item.notes %}
+      <p><small>{{ include.item.notes }}</small></p>
+    {% endif %}
+    <p><strong>Status:</strong> {{ include.item.status }}</p>
+  </div>
+
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+    {% if include.item.image %}
+      <img src="{{ include.item.image }}" alt="project thumbnail" style="max-width: 100%; margin-bottom: 10px;" />
+    {% endif %}
+
+    {% if include.item.video %}
+      <div class="embed-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+        <iframe src="{{ include.item.video }}" frameborder="0" allowfullscreen style="position: absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+      </div>
+    {% endif %}
+
+    <p>{{ include.item.descriptions }}</p>
+  </div>
+</div>
