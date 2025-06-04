@@ -4,17 +4,17 @@
   status: finished
   descriptions: I made an Unreal Engine plugin for visualizing the hand tracking result from VIST (Visual Inertial Skeletal Tracking). During this project I developed a systematic routine for transforming right-hand coordinate into Unreal Engine's own left-hand coordinate system.
   video: /videos/UEVIST_Comp.mp4
-# - layout: left
-#   title: Multi-user Davinici training system
-#   participants: <strong>Harim Ji</strong>*, Hyunsu Kim*, Kihong Kim, Jinhee Yun
-#   notes: "* Equal contribution"
-#   status: finished
-#   descriptions: We made a multi-user Davinci (Intuitive inc.) training system where two user each control pair of tools to eliminate a tumor. We built the simulator including Davinci XI as an articulated rigid body, soft cuttable constraints and contact between the tools and the tumor. The input device is VIST and the VIST plugin for Unreal Engine is used.
-#   video: /videos/Davinci_Comp.mp4
 - layout: left
-  title: Human-in-the-loop Gaussian Splat Reconstruction
-  participants: <strong>Harim Ji</strong>*, Hyunsu Kim*, Jinuk Heo*, Yongseok Lee*, and Dongjun Lee*
+  title: Multi-user Davinici training system
+  participants: <strong>Harim Ji</strong>*, Hyunsu Kim*, Kihong Kim, Jinhee Yun
   notes: "* Equal contribution"
-  status: ongoing
-  descriptions: We made a VR interface for human-in-the-loop Gaussian splatting based scene reconstruction. The human, using both hands, can designate the pose of the end effector of the SAM (Suspended Aerial Manipulator) platform on which an RGBD sensor is attached. The Gaussian splatting of the scene is constructed in real-time and rendered to the user in VR. The VR interface and RGBD sensor simulator are developed using Unreal Engine 5.
-  video: /videos/Drill_Comp.mp4
+  status: finished
+  descriptions: We developed a multi-user training simulator for the da Vinci Xi system (Intuitive Inc.), where two users collaboratively control a pair of surgical instruments to perform tumor removal. The simulator models the da Vinci Xi as an articulated rigid body and incorporates soft, cuttable constraints and contact interactions between the tools and the tumor. User input is provided via the VIST system, integrated into the simulator using the VIST plugin for Unreal Engine.
+  video: /videos/Davinci_Comp.mp4
+# - layout: left
+#   title: Human-in-the-loop Gaussian Splat Reconstruction
+#   participants: Yongseok Lee*, <strong>Harim Ji</strong>*, Hyunsu Kim*, Jinuk Heo*, and Dongjun Lee
+#   notes: "* Equal contribution"
+#   status: preparing publish
+#   descriptions: We made a VR interface for human-in-the-loop Gaussian splatting based scene reconstruction. The human, using both hands, can designate the pose of the end effector of the SAM (Suspended Aerial Manipulator) platform on which an RGBD sensor is attached. The Gaussian splatting of the scene is constructed in real-time and rendered to the user in VR. The VR interface and RGBD sensor simulator are developed using Unreal Engine 5.
+#   video: /videos/Drill_Comp.mp4

@@ -1,9 +1,18 @@
 - layout: left
+  title: "Hand Tracking: Survey"
+  authors: Jinuk Heo, Hyelim Choi, Yongseok Lee, Hyunsu Kim, <strong>Harim Ji</strong>, Hyunreal Park, Youngseon Lee, Cheongkee Jung, Hai-Nguyen Nguyen, and Dongjun Lee*
+  venue: International Journal of Control, Automation and Systems
+  year: 2024
+  notes: Accepted for publication
+  links:
+    - title: Paper
+      url: https://link.springer.com/article/10.1007/s12555-024-0298-1
+
+- layout: left
   title: GPU-Accelerated Subsystem-Based ADMM for Large-Scale Interactive Simulation
   authors: <strong>Harim Ji</strong>, Hyunsu Kim, Jeongmin Lee, Somang Lee, Seoki An, Jinuk Heo, Youngseon Lee, Yongseok Lee, and Dongjun Lee
   venue: IEEE International Conference on Robotics and Automation (ICRA)
   year: 2025
-  location: Atlanta, USA
   notes: Accepted for publication
   links:
     - title: Paper
