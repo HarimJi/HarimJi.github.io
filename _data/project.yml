@@ -1,16 +1,21 @@
 - layout: left
   title: VIST plugin for Unreal Engine
-  participants: <strong>Harim Ji</strong>*
+  participants: <strong>Harim Ji</strong>
   status: finished
-  descriptions: I made an Unreal Engine plugin for visualizing the hand tracking result from VIST (Visual Inertial Skeletal Tracking). During this project I developed a systematic routine for transforming right-hand coordinate into Unreal Engine's own left-hand coordinate system.
+  descriptions: We devlop an Unreal Engine plugin for visualizing the hand tracking result from VIST (Visual Inertial Skeletal Tracking). During this project a systematic routine for transforming right-hand coordinate into Unreal Engine's own left-hand coordinate system is established.
   video: /videos/UEVIST_Comp.mp4
 - layout: left
   title: Multi-user Davinici training system
   participants: <strong>Harim Ji</strong>*, Hyunsu Kim*, Kihong Kim, Jinhee Yun
   notes: "* Equal contribution"
   status: finished
-  descriptions: We developed a multi-user training simulator for the da Vinci Xi system (Intuitive Inc.), where two users collaboratively control a pair of surgical instruments to perform tumor removal. The simulator models the da Vinci Xi as an articulated rigid body and incorporates soft, cuttable constraints and contact interactions between the tools and the tumor. User input is provided via the VIST system, integrated into the simulator using the VIST plugin for Unreal Engine.
+  descriptions: We develop a multi-user training simulator for the da Vinci Xi system (Intuitive Inc.), where two users collaboratively control a pair of surgical instruments to perform tumor removal. The simulator models the da Vinci Xi as an articulated rigid body and incorporates soft, cuttable constraints and contact interactions between the tools and the tumor. User input is provided via the VIST system, integrated into the simulator using the VIST plugin for Unreal Engine.
   video: /videos/Davinci_Comp.mp4
+- layout: left
+  title: "TES: Tetra Encoded SDF"
+  participants: <strong>Harim Ji</strong>
+  status: ongoing
+  descriptions: 
 # - layout: left
 #   title: Human-in-the-loop Gaussian Splat Reconstruction
 #   participants: Yongseok Lee*, <strong>Harim Ji</strong>*, Hyunsu Kim*, Jinuk Heo*, and Dongjun Lee
