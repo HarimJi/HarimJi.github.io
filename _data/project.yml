@@ -4,18 +4,18 @@
   status: finished
   descriptions: We devlop an Unreal Engine plugin for visualizing the hand tracking result from VIST (Visual Inertial Skeletal Tracking). During this project a systematic routine for transforming right-hand coordinate into Unreal Engine's own left-hand coordinate system is established.
   video: /videos/UEVIST_Comp.mp4
-- layout: left
-  title: Multi-user Davinici training system
-  participants: <strong>Harim Ji</strong>*, Hyunsu Kim*, Kihong Kim, Jinhee Yun
-  notes: "* Equal contribution"
-  status: finished
-  descriptions: We develop a multi-user training simulator for the da Vinci Xi system (Intuitive Inc.), where two users collaboratively control a pair of surgical instruments to perform tumor removal. The simulator models the da Vinci Xi as an articulated rigid body and incorporates soft, cuttable constraints and contact interactions between the tools and the tumor. User input is provided via the VIST system, integrated into the simulator using the VIST plugin for Unreal Engine.
-  video: /videos/Davinci_Comp.mp4
+# - layout: left
+#   title: Multi-user Davinici training system
+#   participants: <strong>Harim Ji</strong>*, Hyunsu Kim*, Kihong Kim, Jinhee Yun
+#   notes: "* Equal contribution"
+#   status: finished
+#   descriptions: We develop a multi-user training simulator for the da Vinci Xi system (Intuitive Inc.), where two users collaboratively control a pair of surgical instruments to perform tumor removal. The simulator models the da Vinci Xi as an articulated rigid body and incorporates soft, cuttable constraints and contact interactions between the tools and the tumor. User input is provided via the VIST system, integrated into the simulator using the VIST plugin for Unreal Engine.
+#   video: /videos/Davinci_Comp.mp4
 - layout: left
   title: "TES: Tetra Encoded SDF"
   participants: <strong>Harim Ji</strong>
   status: ongoing
-  descriptions: 
+  descriptions: We develop a memory efficient Signed Distance Feild (SDF) representation which can also handle small deformations of the geometry, and is exact near the surface. This can be used to collision detection between general, complicated meshes in both rigid body and soft body simulations. 
 # - layout: left
 #   title: Human-in-the-loop Gaussian Splat Reconstruction
 #   participants: Yongseok Lee*, <strong>Harim Ji</strong>*, Hyunsu Kim*, Jinuk Heo*, and Dongjun Lee
