@@ -1,0 +1,231 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Class
+% Version 2.0 (12/10/23)
+%
+% This class originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Omar Roldan
+% Based on a template by  Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{multicol}
+\setlength{\columnsep}{0mm}
+%----------------------------------------------------------------------------------------
+\usepackage{lipsum}  
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	{ \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{Harim Ji}}}} % First name
+	
+	\vspace{6pt}
+	
+	{\Large PhD student} % Career or current job title
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.2\textwidth} % 20% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	\icon{Globe}{11}{\href{https://harimji.github.io/}{harimji.github.io}}\\ 
+    \icon{Phone}{11}{+82 10 3319 2790}\\
+    \icon{MapMarker}{11}{Seoul, South Korea}\\
+	
+\end{minipage}
+\begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\icon{Envelope}{11}{\href{jiharim0911@snu.ac.kr}{jiharim0911@snu.ac.kr}}\\	
+    \icon{Github}{11}{\href{https://github.com/HarimJi}{https://github.com/HarimJi}}\\
+    \icon{LinkedinSquare}{11}{\href{https:www.linkedin.com/in/harim-ji-538baa337}{HarimJi}}\\    
+    
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.46\textwidth}
+    \cvsect{Summary}
+	\vspace{-6pt}
+
+I am a PhD candidate at the Department of Mechanical Engineering, Seoul National University, advised by Professor Dongjun Lee. My research goal is to develop an interactive simulator capable of handling large-scale, contact-rich environments involving both rigid and deformable objects—for example, a soft human hand tightening a bolt. Toward this goal, my interests include dynamics modeling, parallelizable solvers, and GPU-accelerated computation.
+
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.465\textwidth}
+    \cvsect{Skills}
+    \vspace{-6pt}
+    
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Languages:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+      C++, CUDA C++
+    \end{minipage}
+    \vspace{4mm}
+    
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Technologies:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+      Unreal Engine, Unity, MATLAB, Solidworks
+    \end{minipage}
+    
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Education}
+\begin{entrylist}
+    \entry
+		{Mar. 2017\\ - Feb. 2023}
+		{BS, Seoul National University}
+		{}
+		{Mechanical and Aerospace Engineering, Total GPA: 3.54/4.3}
+    \entry
+		{Mar. 2023 -}
+		{PhD., Seoul Nation University}
+		{}
+		{Mechanical Engineering, Total GPA: 3.8/4.3, Advisor: Dongjun Lee}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+\cvsect{Publications}
+\textit{* denotes equal contribution}
+\begin{enumerate}
+    \item Jinuk Heo, Hyelim Choi, Yongseok Lee, Hyunsu Kim, \underline{\textbf{Harim Ji}}, Hyunreal Park, Youngseon Lee, Chungkee Jung, Hai-Nguyen Nguyen, and Dongjun Lee (2024). \textit{Hand Tracking: Survey}. International Journal of Control, Automation, and Systems.
+    \item \underline{\textbf{Harim Ji}}, Hyunsu Kim, Jeongmin Lee, Somang Lee, Seoki An, Jinuk Heo, Youngseon Lee, Yongseok Lee, and Dongjun Lee (2025). \textit{GPU-Accelerated Subsystem-Based ADMM for Large-Scale Interactive Simulation}. In \textit{Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)}.
+\end{enumerate}
+
+
+%----------------------------------------------------------------------------------------
+%	Conferences
+%----------------------------------------------------------------------------------------
+\cvsect{Conferences}
+\textit{ * denotes equal contribution}
+\begin{enumerate}
+    \item \underline{\textbf{Harim Ji}}, Hyelim Choi, Jinuk Heo, Youngseon Lee, Hyunsu Kim, Somang Lee, and Dongjun Lee. \textit{A Robust and Accurate System for Data Acquisition of Dexterous Manipulation}. RSS Workshop on Learning Dexterous Manipulation, 2023. Daegu, Korea.
+    \item Hyelim Choi*, Youngseon Lee*, \underline{\textbf{Harim Ji}}*, Hyunsu Kim, Jinuk Heo, Hyunreal Park, Somang Lee, Minji Lee, Jeongmin Lee, and Dongjun Lee. \textit{Interactive Simulation of Dexterous Manipulation with Hand Tracking: Robot Hand Bolting and Multi-User Collaborative Simulation in VR}. ICRA Expo, 2024. Yokohama, Japan.   
+    \item Hyelim Choi, Hyunreal Park, \underline{\textbf{Harim Ji}}, and Donjun Lee. \textit{Visual-inertial Markerless Hand Tracking}. KRoC 2025. Pyeongchang, Korea.
+    \item \underline{\textbf{Harim Ji}}, Hyunsu Kim, Jeongmin Lee, Somang Lee, Seoki An, Jinuk Heo, Youngseon Lee, Yongseok Lee, Dongjun Lee. \textit{GPU-Accelerated Subsystem-Based ADMM for Large-Scale Interactive Simulation}. ICRA workshop on Handy Moves: Dexterity in Multi-Fingered Hands, 2025. Atlanta, USA.
+\end{enumerate}
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+\cvsect{Projects}
+\begin{entrylist}
+    \entry
+		{Completed}
+		{VIST plugin for Unreal Engine}
+		{}
+		{We developed an Unreal Engine plugin for visualizing hand tracking results from VIST (Visual Inertial Skeletal Tracking). During this project, a systematic routine was established to transform right-handed coordinates into Unreal Engine’s native left-handed coordinate system.
+        }
+    \entry
+        {Ongoing}
+		{TES: Tetra Encoded SDF}
+		{}
+		{We developed a memory-efficient Signed Distance Field (SDF) representation that remains exact near the surface and supports small geometric deformations. This enables accurate collision detection between complex meshes in both rigid and soft body simulations.
+        }
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Experience}
+\begin{entrylist}
+	\entry
+        {Mar. 2025\\ - Jun. 2025}
+		{Teaching Assistant, Mechanical System Modeling and Control}
+		{}
+		{Department of Mechanical Engineering, Seoul National University, Professor Dongjun Lee}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Awards and Honors
+%----------------------------------------------------------------------------------------
+\cvsect{Awards and Honors}
+\begin{entrylist}
+    \entry
+        {2025}
+        {Best Presentation Award, SRRC Workshop}
+        {Seoul National University}
+        {}
+        %{Awarded for presenting outstanding individual research at the 2025 SRRC Workshop. Received recognition as the top student researcher with a prize of ₩150,000.}
+    \entry
+        {2022}
+        {Excellence Award, Home Appliance Technology Idea Contest}
+        {Samsung Electronics \& SeoulTech}
+        {}
+        %{Awarded for an outstanding proposal in the 2022 Home Appliance Technology Idea Contest, hosted by Samsung and Seoul National University of Science and Technology. Received ₩3,000,000 in prize.}
+    \entry
+        {2021}
+        {Excellence Award, Engineering Textbook Contest}
+        {Seoul National University}
+        {}
+        %{Awarded for outstanding creativity and logical clarity in the 2021 Engineering Textbook Writing Contest hosted by the College of Engineering.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Services
+%----------------------------------------------------------------------------------------
+\cvsect{Services}
+\begin{entrylist}
+    \entry
+        {2019--2020} 
+        {Republic of Korea Air Force}
+        {South Korea}
+        {Completed mandatory military service as a sergeant in the Korean Air Force.}
+    \entry
+		{}
+		{Reviewer}
+		{}
+		{\vspace{-10pt}
+        \begin{itemize}
+            \item IEEE International Conference on Robotics and Automation workshop (2025)
+		\end{itemize}
+        }
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+	\cvsect{Languages}
+    \vspace{-6pt}
+    
+    \hspace{26mm} \textbf{ Korean} - native, \textbf{English} - B2+ (self-assessed)
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

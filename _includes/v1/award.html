@@ -1,0 +1,6 @@
+<div class="container award-container">
+  <h3 id="{{ site.award_title | slugify | default: 'award' }}">{{ site.award_title | default: "Awards & Honors" }}</h3>
+  {% for award in site.data.award%}
+    {% include v1/award-item.html item=award%}
+  {% endfor %}
+</div>
